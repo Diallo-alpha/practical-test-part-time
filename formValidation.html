@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style2.css" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>CREATE AN ACCOUNT</h1>
+      <form>
+        <input type="text" class="input" placeholder="username" />
+        <span id="username-err"></span>
+        <input type="email" class="input" placeholder="email" />
+        <span id="email-err"></span>
+        <input type="tel" class="input" placeholder="phone number" />
+        <span id="phone"></span>
+        <input type="password" class="input" placeholder="password" />
+        <div>
+          <input type="checkbox" />
+          <label id="check-label">Show password</label>
+        </div>
+        <span id="pwd-err"></span>
+        <button type="button">Register</button>
+        <span id="error"></span>
+      </form>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
